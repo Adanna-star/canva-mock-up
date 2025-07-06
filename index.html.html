@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        background-image {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-image: url('room.webp');
+            background-size: cover;
+            background-position: center;
+        }
+        #sec-1 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }   
+        .head {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3em;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        #sec-2 {
+            width: 100%;
+            height: auto;
+            background-color: rgb(150, 71, 31);
+            padding-bottom: 50px;
+        }
+        #has {
+            color: white;
+            font-size: 1.7em;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 40px;
+            display: flex;
+            padding-left: 35%;
+
+        }
+        #img-1 {
+            display: block;
+            margin: 0 auto;
+            width: 20%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 530px;
+            padding-top: 20px;
+        }
+        #write {
+            color: white;
+            font-size: 1em;
+            padding-top: 20px;
+            padding-left: 35%;
+            width: 30%;
+            margin-left: 390px;
+            margin-top: -240px;
+        }
+        h3 {
+            border: white 2px solid;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #learn {
+            background-color: transparent;
+            color: white;
+            padding: 10px 20px;
+            border: white 2px solid;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+        #div3 {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 90px;
+        }
+        #first {
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: white 2px solid;
+            font-size: 1.3em;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        #zip {
+            border: white 2px solid;
+            width: 107%;
+            margin-left: -10px;
+            margin-top: 15px;
+        }
+        p {
+            margin-top: 6px;
+        }
+        #sec-3 {
+            width: 100%;
+            height:auto;
+            padding-bottom: 50px;
+            background-color: rgb(243, 221, 210);
+        }
+        #div-2 {
+            display: flex;
+            justify-content: space-evenly;
+            height: 40%;
+        }
+        h1 {
+            color: black;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 20px;
+        }
+        #three {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        #three-3 {
+            border: solid 2px black;
+            height: 240px;
+            width: 180px;
+        }
+        #sec-4 {
+            background-image:
+            radial-gradient(rgba(0, 0, 0, 0.6)30%, rgba(0, 0, 0, 0)80%),url('vase.webp');
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            padding-bottom: 50px;
+            background-position: center;
+        }
+        #btn {
+            display: flex;
+            justify-content: space-evenly;
+            justify-items: center;
+        }
+        #bot {
+            background-color: transparent;
+            color: white;
+            border: white 2px solid;
+            border-radius: 5px;
+            padding: 10px 40px;
+            cursor: pointer;
+            font-size: 1.2em;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #sec-5 {
+            width: 100%;
+            height: auto;
+            background-color: rgb(243, 221, 210);
+            padding-bottom: 50px;
+        }
+        #thank {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #P-TAG {
+            padding-top: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 1.2em;
+        }
+        #H1-TAG {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 2em;
+        }
+        #p-1{
+            background-color: rgb(216, 23, 23);
+            cursor: pointer;
+        }
+        #sec-6 {
+            width: 100%;
+            height: auto;
+            background-image: url(br.webp);
+            background-size: cover;
+            background-position: 70% 70%;
+        }
+        #sec-7 {
+            width: 100%;
+            height: auto;
+            background-color:rgb(150, 71, 31);
+        }
+    </style>
+<body>
+    <section id="sec-1">
+        <background-image src="room.webp">
+            <h1 class="head">phases and spaces.inc </h1>
+    </section>
+    <section id="sec-2">
+        <h1 id="has">spaces and spaces.inc<br>has a space from everyone </h1>
+        <img id="img-1" src="doc.jpg">
+        <div id="write"><h3>we believe that everyone deserves a space meant solely for them. Claim yours with our community of trusted brokers and diverse range of properties. </h3>
+        <button id="learn">learn more</button></div>
+        <div id="div3">
+            <div id="first">A community of trusted brokers
+                <div id="zip"></div><p>Highlight a specific service or product. It can be a property appraisal service, a consultation,or something uniquely yours.</p>
+            </div>
+            <div id="first">A pleased brpwsing experience
+                <div id="zip"></div><p>Highlight a specific service or product. It can be a property appraisal service, a consultation,or something uniquely yours.</p>
+            </div>
+            <div id="first">A space for work a space for play
+                <div id="zip"></div><p>Highlight a specific service or product. It can be a property appraisal service, a consultation,or something uniquely yours.</p>
+            </div>
+        </div>
+    </section>
+    <section id="sec-3">
+        <div id="div-2">
+        <div><h1>Bright and <br>airy 2-storey<br> townhouse</h1>
+        <div><h4>What's special about this listing?<br>Use this space to highlight what makes <br>this featured home or listing stand out.</h4>
+            </div>
+            <button style="background-color: transparent; color: black;border-radius: 5px;cursor: pointer;font-size: 1em;margin-top: 20px; padding: 10px 20px;">enquire</button>
+        </div>
+        <div><img src="live.jpg"></div>
+        </div>
+        <h1 style="margin-top: 90px;display: flex;justify-content: center;">FEATURED LISTING</h1>
+        <DIV id="three">
+            <div id="three-3"><img style="width: 180px;" src="bed.jpeg"><p style="padding-left: 10px;">for sale|baseldon</p><div style="border: solid 1px black;;"></div><p style="padding-left: 10px;font-size: large;">234 Talensville Lane</p><P style="padding-left: 10px; margin-top: -10px;">3 Beds | 2 Baths</P></div>
+            <div id="three-3"><img style="width: 180px;" src="bed.jpeg"><p style="padding-left: 10px;">for sale|westden</p><div style="border: solid 1px black;;"></div><p style="padding-left: 10px;font-size: large;">234 Talensville Lane</p><P style="padding-left: 10px; margin-top: -10px;">3 Beds | 2 Baths</P></div>
+            <div id="three-3"><img style="width: 180px;" src="bed.jpeg"><p style="padding-left: 10px;">for sale|grays</p><div style="border: solid 1px black;;"></div><p style="padding-left: 10px;font-size: large;">234 Talensville Lane</p><P style="padding-left: 10px; margin-top: -10px;">3 Beds | 2 Baths</P></div>
+        </DIV>
+    </section>
+    <section id="sec-4">
+        <div style="display: flex; justify-content: center;align-items: center; padding-top: 110px;">
+        <h1 style="color: white; font-size: 4.5rem;">You have a place here</h1>
+        </div>
+        <div style="display: flex;padding-left: 400px;color: white; font-size: 1rem; width: 50%;font-family: Arial, Helvetica, sans-serif; padding-top: 20px; font-size: 1.2rem;">
+        <p>Write a paragraph that talks about your real estate firm or your real estate listings. Convince your prospective clients to choose you and your listings for their realty needs; whether they're to buy, sell, or even rent. Just be sure to highlight what's unique about your offerings to set yourselves apart from the competition.</p>
+        </div>
+        <div id="btn">
+            <button id="bot">buy</button>
+            <button id="bot">sell</button>
+            <button id="bot">rent</button>
+        </div>
+    </section>
+    <section id="sec-5">
+        <div id="thank">
+            <div ID="H1-TAG">
+                <h1>Thank you <br>for visiting us</h1>
+                <p>Before you leave, we would love to know<br>how you discovered Phases & Spaces Inc.</p>
+            </div>
+            <div id="P-TAG">
+                <p id="p-1" style="background-color: rgba(128, 128, 128, 0.212); padding: 10px;border-radius: 10px;">i know about it from promos and prints</p>
+                <p id="p-1" style="background-color: rgba(128, 128, 128, 0.212); padding: 10px;border-radius: 10px;">My friends and family recommended your website</p>
+                <p id="p-1" style="background-color: rgba(128, 128, 128, 0.212); padding: 10px;border-radius: 10px;">I know about it from promos and print ads</p>
+                <p id="p-1" style="background-color: rgba(128, 128, 128, 0.212); padding: 10px;border-radius: 10px;">I saw it among the search engine results</p>
+            </div>
+        </div>
+    </section>
+    <section id="sec-6"></section>
+    </section>
+    <section id="sec-7">
+        <H1 style="color: white; font-family: Arial, Helvetica, sans-serif; padding-left: 150px; padding-top: 50px;font-size: 2rem;">Phases & Spaces inc</H1></DIV>
+        <section style="display: flex;padding-top: 120px; padding-left: 150px; font-size: 1.3rem;">
+            <p style="color: white; font-family: Arial, Helvetica, sans-serif;">join our community<br>123 anywhere street st any city ST 12345 <br>tel;12345678<br>hello@gmail.com</p>
+            <p style="color: white; font-family: Arial, Helvetica, sans-serif; padding-left: 100px;">business hours<br>monday-friday:8:00am-10:00pm<br>saturday-sunday: 10:00am-5:00pm</p>
+    </section>
+    <section style="background-color: rgb(150, 71, 31);;">
+          <div style="font-size: 2rem;padding-left: 150px;padding-top: 100px;">
+            <i class="fa-brands fa-facebook fa-bounce" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter fa-bounce" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i>
+            <br>
+            <br>
+            </div>
+    </section>
+</body>
+</html>
